@@ -1,0 +1,32 @@
+Para ejecutar los programas se necesitara del compilador gcc
+
+1) ejemplo para el ejercicio 1 :
+
+gcc ejercicio1.c -o ejercicio
+./ejercicio
+
+revisar el archivo variables.txt
+
+2) ejemplo para el ejercicio 2:
+
+gcc ejercicio2CORTO.c -o eje
+./eje [variable de entorno]
+
+
+3) ejemplo para ejercicio 3 recibe como parametro el directorio 
+y el nombre del archivo a buscar :
+
+gcc ejercicio3.c -o eje 
+./eje [directorio] [archivo a busca]
+
+
+4) ejemplo para el ejercicio 4 :
+
+gcc ejercicio4.c -o eje
+./eje 
+
+5) ejemplo para el ejercicio 5 recibe como parametros:
+ [comando] [comando] [archivo.txt] -> ejemplo: ls sort archivo.txt
+
+gcc ej5.c -o eje
+./eje [comando entrada] [comando salida] [archivo.txt] 
