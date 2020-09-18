@@ -6,7 +6,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdlib.h>
-
+//esta es la modificacion,,,,,,,,,,,,,,,,//
 #define READ_END    0   
 #define WRITE_END   1   
 
